@@ -159,3 +159,21 @@ h2{
     color: var(--color-grey);
     margin-bottom: 120px;
 }
+
+/*benefits*/
+.benefits{
+    background-color: var(--color-light-grey);
+    padding: 105px 0;
+}
+.benefits-container{
+    padding: 0 100px;
+}
+.benefits-single {
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 37px;
+    border-radius: 5px;
+}
