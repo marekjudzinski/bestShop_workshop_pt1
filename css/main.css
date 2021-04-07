@@ -466,3 +466,38 @@ h2{
     color: #707070;
     font-size: 12px;
 }
+
+/*footer*/
+.footer {
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-copy {
+    font-size: 0.6875rem;
+    line-height: 1.5rem;
+    color: var(--color-grey);
+    margin-top: 6px;
+}
+
+.footer-icons a:first-of-type {
+    margin-right: 25px;
+}
+.logo{
+    font-size: 20px;
+    font-family: var(--raleway);
+    color: var(--color-primary);
+    text-decoration: none;
+}
