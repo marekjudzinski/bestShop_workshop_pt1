@@ -284,6 +284,7 @@ h2{
 
 /*pricing*/
 .pricing {
+    font-family: var(--open-sans);
     margin: 100px auto;
     display: flex;
     flex-direction: column;
@@ -388,4 +389,80 @@ h2{
     text-decoration: none;
     font-family: var(--open-sans);
     color: white;
+}
+
+/*questions-form*/
+.questions-form{
+    height: 380px;
+    padding: 10px;
+    max-width: 900px;
+    margin-top: 155px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--open-sans);
+}
+/*business card*/
+.questions-business--card{
+    max-height: 170px;
+    width: 50%;
+}
+.questions-business--card h5{
+    padding-bottom: 22px;
+    font-size: 36px;
+    font-family: var(--raleway);
+}
+.questions-business--card span{
+    font-family: var(--open-sans);
+    font-size: 16px;
+}
+.email--phone{
+    margin-top: 40px;
+    display: flex;
+}
+.email--phone a{
+    text-decoration: none;
+}
+.email--phone-email{
+    padding-right: 50px;
+}
+.email--phone-email::before{=
+    background-image: url("../assets/Mail_Icon.svg");
+}
+.email--phone-phone{}
+
+/*form*/
+.form-container{
+    width: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.btn-submit{
+    color: white;
+    font-family: var(--open-sans);
+    align-self: flex-end;
+    padding: 20px 95px;
+    background: var(--color-primary) 0 0 no-repeat padding-box;
+    border-radius: 35px;
+    border: none;
+}
+.form-label{
+    margin-bottom: 40px;
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+.form-label-input{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black
+}
+.form-label-text{
+    color: #707070;
+    font-size: 12px;
 }
